@@ -1,6 +1,6 @@
 {
     "version": "1.0.8",
-    "name": "mratiebatie/laravel-repositories",
+    "name": "ratno/laravel-repositories",
     "description": "Laravel repositories using the native Eloquent functions",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "MrAtiebatie\\": "src"
+            "Ratno\\Repository\\": "src"
         }
     },
     "require": {
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MrAtiebatie\\RepositoryServiceProvider"
+                "Ratno\\Repository\\RepositoryServiceProvider"
             ]
         }
     }

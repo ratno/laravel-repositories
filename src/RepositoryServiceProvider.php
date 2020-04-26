@@ -1,9 +1,9 @@
 <?php
 
-namespace MrAtiebatie;
+namespace Ratno\Repository;
 
 use Illuminate\Support\ServiceProvider;
-use MrAtiebatie\Commands\MakeRepositoryCommand;
+use Ratno\Repository\Commands\MakeRepositoryCommand;
 
 class RepositoryServiceProvider extends ServiceProvider
 {

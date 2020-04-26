@@ -1,6 +1,6 @@
 <?php
 
-namespace MrAtiebatie;
+namespace Ratno\Repository;
 
 /**
  * Repository

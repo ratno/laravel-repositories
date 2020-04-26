@@ -1,6 +1,6 @@
 <?php
 
-namespace MrAtiebatie\Commands;
+namespace Ratno\Repository\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputArgument;

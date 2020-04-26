@@ -2,10 +2,11 @@
 
 namespace App\Repositories;
 
-use MrAtiebatie\Repository;
+use Ratno\Repository\RepositoryInterface;
+use Ratno\Repository\Repository;
 use [model_namespace]; [comment_namespace_when_no_model]
 
-class DummyClass
+class DummyClass implements RepositoryInterface
 {
     use Repository;
 
