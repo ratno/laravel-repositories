@@ -19,10 +19,12 @@ interface RepositoryInterface
     public function findByUUid($uuid, $columns = ['*']);
 
     /**
-     * Search By Keyword
+     * Load data with search keyword, sort by and limit
      *
-     * @param $keyword
+     * @param $searchKeyword
+     * @param $sortBy
+     * @param $limit
      * @return mixed
      */
-    public function searchByKeyword($keyword);
+    public function loadData($searchKeyword="",$sortBy="",$limit="");
 }
