@@ -21,10 +21,11 @@ interface RepositoryInterface
     /**
      * Load data with search keyword, sort by and limit
      *
-     * @param $searchKeyword
-     * @param $sortBy
-     * @param $limit
+     * @param string $searchKeyword
+     * @param string $sortBy
+     * @param string $limit
+     * @param array $filters
      * @return mixed
      */
-    public function loadData($searchKeyword="",$sortBy="",$limit="");
+    public function loadData($searchKeyword="",$sortBy="",$limit="",array $filters=[]);
 }
